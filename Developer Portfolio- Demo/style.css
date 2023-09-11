@@ -26,7 +26,9 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 100px;
+    
 }
+
 .nav-title {
     color: #181818;
     font-family: Open Sans;
@@ -35,14 +37,17 @@ nav {
     font-weight: 800;
     line-height: normal;
 }
+
 nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
@@ -50,18 +55,50 @@ nav a {
 
 /*Header related style */
 
-.header{
-    background-color: #FFF8F3;;
+.header {
+    background-color: #FFF8F3;
+    background-image: url(assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right; 
 }
 
-.banner{
-    padding: 30px 30px 30px 50px;
+
+.banner {
+    padding: 30px 30px 0px 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-image: url(assets/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
     
 }
 
-.banner .profile-picture{
+.banner-contant{
+    max-width: 500px;
+    
+  
+}
+.banner .profile-picture {
     width: 400px;
     height: 500px;
 }
+
+.banner-greeting {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title {
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
