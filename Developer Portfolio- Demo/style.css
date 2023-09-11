@@ -1,5 +1,55 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
+/* Common shared style*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    font-size: 20px;
+    font-style: normal;
+    color: #fff;
+    padding: 15px 25px;
+
+}
+
+
+/* Nav related style*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/*Header related style */
+
+.header{
+    background-color: #FFF8F3;;
 }
