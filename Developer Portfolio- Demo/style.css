@@ -112,7 +112,12 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+/*main section*/
+main{
+    max-width: 920px;
+    margin: 0 auto;
 
+}
 /*About releated style*/
 .about {
     padding: 130px;
@@ -120,3 +125,6 @@ nav a {
     background: #FFF8F3;
     margin: 130px 0px;
 }
+
+Note: vedio 5.5 
+           2:17 min
