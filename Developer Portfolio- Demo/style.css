@@ -126,5 +126,11 @@ main{
     margin: 130px 0px;
 }
 
-Note: vedio 5.5 
-           2:17 min
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+
+}
+.about-info{
+    text-align: center;
+}
